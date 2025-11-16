@@ -67,3 +67,32 @@ node_modules/
 
 # dataconnect generated files
 .dataconnect
+
+# === AJOUTS PYTHON ===
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+*.egg-info/
+
+# Database
+*.db
+*.sqlite3
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+
+# Ajouter cette ligne à votre .gitignore
+echo "backend/serviceAccountKey.json" >> .gitignore
+echo "*.json" >> .gitignore  # Pour être safe
