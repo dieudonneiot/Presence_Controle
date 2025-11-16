@@ -11,6 +11,8 @@ firebase-debug.*.log*
 .firebase/
 
 # Firebase config
+serviceAccountKey.json
+*.json
 
 # Uncomment this if you'd like others to create their own Firebase project.
 # For a team working on the same Firebase project(s), it is recommended to leave
@@ -92,7 +94,3 @@ dist/
 # VS Code
 .vscode/
 !.vscode/settings.json
-
-# Ajouter cette ligne à votre .gitignore
-echo "backend/serviceAccountKey.json" >> .gitignore
-echo "*.json" >> .gitignore  # Pour être safe
